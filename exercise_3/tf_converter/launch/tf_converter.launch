@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Launch the fanuc demo -->
+    <include file="$(find fanuc_20ia_moveit_config)/launch/demo.launch"/>
+    <!-- Launch the tr_converter node-->
+    <node name="tf_converter" pkg="tf_converter" type="tf_converter"  output="screen"></node> 
+
+  
+</launch>

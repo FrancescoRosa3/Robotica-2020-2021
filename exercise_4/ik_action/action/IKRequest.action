@@ -1,0 +1,8 @@
+# request for inverse kinematics
+geometry_msgs/Pose ik_request
+---
+# array of solutions for the requested position
+moveit_msgs/RobotState[] solutions
+---
+# current solution
+moveit_msgs/RobotState current_solution

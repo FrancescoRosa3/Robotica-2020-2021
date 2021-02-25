@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Launch the fanuc demo -->
+    <include file="$(find fanuc_20ia_moveit_config)/launch/demo.launch"/>
+    
+    <!-- Load the desidered planning group name-->
+    <param name = "planning_group" value = "fanuc"/>
+
+    <!-- Launch the server node-->
+    <node name="frw_kinematics_server" pkg="frw_kinematics" type="frw_kinematics_server"  output="screen"/> 
+
+    <!-- Launch the client node-->
+    <node name="frw_kinematics_client" pkg="frw_kinematics" type="frw_kinematics_client"  output="screen"/>
+  
+</launch>

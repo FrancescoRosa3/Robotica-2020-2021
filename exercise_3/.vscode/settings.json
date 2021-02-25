@@ -1,0 +1,9 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ciccio/Robotica/robotica_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages",
+        "/home/ciccio/Desktop/preprocessing/models/research/object_detection",
+        "/home/ciccio/Desktop/preprocessing/models/research",
+        "/home/ciccio/Desktop/preprocessing/models/research/slim"
+    ]
+}

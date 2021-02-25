@@ -1,0 +1,4 @@
+<launch>
+    <node name="publisher" pkg="controller_pkg" type="sensors_publisher_node" output="screen"/>
+    <node name="subscriber" pkg="controller_pkg" type="controller_node" output="screen"/>
+</launch>

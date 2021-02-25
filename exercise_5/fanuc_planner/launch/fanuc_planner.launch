@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Launch the fanuc demo -->
+    <include file="$(find fanuc_20ia_moveit_config)/launch/demo.launch"/>
+    <!-- Launch the fanuc_planner node-->
+    <node name="fanuc_planner" pkg="fanuc_planner" type="fanuc_planner"  output="screen" cwd="node"></node> 
+
+    <!-- Launch rqt multiplot-->    
+    <node pkg="rqt_multiplot" type="rqt_multiplot" name="rqt_multiplot"/>
+  
+</launch>

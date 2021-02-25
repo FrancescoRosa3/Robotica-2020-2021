@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/ciccio/Robotica/robotica_ws/devel/include/**",
+                "/opt/ros/melodic/include/**",
+                "/home/ciccio/Robotica/robotica_ws/src/exercise_2/controller_pkg/include/**",
+                "/home/ciccio/Robotica/robotica_ws/src/exercise_5/fanuc_planner/include/**",
+                "/home/ciccio/Robotica/robotica_ws/src/exercise_4/frw_kinematics/include/**",
+                "/home/ciccio/Robotica/robotica_ws/src/exercise_4/inv_kinematics/include/**",
+                "/home/ciccio/Robotica/robotica_ws/src/exercise_5/moveit_dp_redundancy_resolution/include/**",
+                "/home/ciccio/Robotica/robotica_ws/src/exercise_3/tf_converter/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}
